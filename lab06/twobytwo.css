@@ -1,0 +1,11 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: orange; 
+    display: inline-block; 
+}
+ #highlighted { 
+    border-width: 10px;
+    border-style: dotted;
+    border-color: #000000 red;
+}
