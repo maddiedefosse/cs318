@@ -1,13 +1,14 @@
-.card img {
+.card  {
     width: 200px;
     display: inline-block;
     border-style: dotted;
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
-    p {
-        font-family: sans-serif;
-    }
+    vertical-align: top;
+}
+.card img {
+    width: 100%;
 }
 .name {
     text-align: center;
@@ -15,8 +16,25 @@
     font-family: sans-serif;
 }
 #pokemon1 {
-    img {
-        background-color: purple;        
-    }
-
+        background-color: rgba(112, 44, 240, 0.726); 
+}
+#pokemon2 {
+        background-color: rgba(26, 243, 44, 0.726); 
+}
+#pokemon3 {
+        background-color: rgba(26, 229, 243, 0.726); 
+}
+#pokemon4 {
+        background-color: rgba(178, 243, 26, 0.726); 
+}
+#pokemon5 {
+        background-color: rgba(243, 174, 26, 0.726); 
+}
+#pokemon6 {
+        background-color: rgba(26, 243, 225, 0.726); 
+}
+.favorite {
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
 }
