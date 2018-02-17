@@ -1,0 +1,22 @@
+.card img {
+    width: 200px;
+    display: inline-block;
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    p {
+        font-family: sans-serif;
+    }
+}
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#pokemon1 {
+    img {
+        background-color: purple;        
+    }
+
+}
