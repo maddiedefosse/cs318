@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(212, 241, 247);
+    * {
+      box-sizing: border-box; 
+   }
+  }
+  
+  .stamp {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    border-color: rgb(63, 172, 30);
+    border-width: 4px;
+    border-style: dashed;
+    box-shadow: 4px 1px 5px; 
+    background-position: top right, center;
+    background-repeat: no-repeat, no-repeat; 
+  }
+  #stamp1 {
+      padding: 5px; 
+      margin: 10px;
+      background-image: url("russiaflag.png"), url("realrussia.png"); 
+      background-size: auto 100px, auto 320px; 
+  }
+    #stamp2 {
+      padding: 5px;
+      margin: 10px;
+      background-image: url("indiaflag.png"), url("india.png"); 
+      background-size: auto 100px, auto 320px;
+  }
+  #stamp3 {
+    padding: 5px;
+    margin: 10px;
+    background-image: url("chinaflag.png"), url("china.png"); 
+    background-size: auto 100px, auto 320px; 
+}
+    #stamp4 {
+      padding: 5px;
+     margin: 10px;
+     background-image: url("theflag.png"), url("egypt.png"); 
+     background-size: auto 100px, auto 320px; 
+}
