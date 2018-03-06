@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, lightgreen, darkgreen)
+}
+
+header {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    color: white;
+}
+
+nav {
+    text-align: center;
+
+}
+
+#box {
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+main img {
+    width: 100%
+}
+
+#sub {
+    text-align: right;
+}
+footer{
+    font-style: italic;
+    text-align: right;
+}
