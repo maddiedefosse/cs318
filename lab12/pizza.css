@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+
+header{ 
+    background-color: rgb(102, 42, 20);
+    padding: 10px;
+    position: relative;
+}
+
+nav{
+    background-color: rgb(185, 185, 185);
+    float: left; 
+    width: 200px; 
+    padding: 10px;
+}
+
+main{
+ 
+    background-color: rgb(150, 76, 76);
+    margin-left: 200px;
+    padding: 10px;
+}
+
+footer{ 
+    background-color: rgb(165, 46, 3); 
+    padding: 10px;
+}
+
+#outside{
+    padding: 10px;
+    position: relative;
+}
+
+body{
+    background-color: rgb(133, 122, 122);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px;
+}
+
+ul{ 
+    list-style: none;
+}
+
+a:link{ 
+    text-decoration: none;
+}
+
+#order{
+    position: fixed;
+    background-image: url("zaa.png");
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+    right: 0;
+    margin-right: 10px;
+}
+
+#textlink{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-shadow: 1px 1px black;
+}
+
+#dummie{
+    clear: left;
+}
+#outside{
+    background-color: rgb(185, 185, 185);
+}
+
+h1{
+   text-align: center;
+}
+
+.left img {
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.right img {
+    float: right;
+    padding: 10px;
+    width: 200px;
+}
+
+#left {
+    clear: both;
+}
+
+#right {
+    clear: both;
+}
