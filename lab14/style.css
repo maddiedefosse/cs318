@@ -1,0 +1,57 @@
+.full {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#puppy1 {
+    background-image: url(puppy1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(141, 129, 108);
+    text-align: center;
+    font-size: 500%;
+    font-style: bold;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 400%;
+}
+
+nav{
+    color: black;
+    background-color: white;
+    float: left;
+    width:100%;
+}
+
+#puppy2 {
+    background-image: url(puppy2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#puppy3 {
+    background-image: url(puppy3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#puppy4 {
+    background-image: url(puppy4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#puppy5 {
+    background-image: url(puppy5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
