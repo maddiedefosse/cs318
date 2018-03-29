@@ -39,7 +39,7 @@ main {
     margin-left: 15px;
     background-image: url(https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg);
 }
-#caption {
+.caption {
     color: rgb(209, 169, 82);
     font-family: sans-serif;
     font-size: 85%;
