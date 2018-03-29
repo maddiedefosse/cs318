@@ -1,0 +1,63 @@
+* {
+    background-color: black;
+    color: white;
+}
+.boxes {
+    width: 50px;
+    height: 7px;
+    padding: 6px;
+    margin: 5px;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+.shapez {
+    background-color: white;
+    list-style: none;
+}
+#square {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+#circle {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.outside {
+    width: 100px;
+    height: 100px;
+    border-color: rgb(56, 56, 56);
+    border-width: 10px;
+    border-style: solid;
+}
+#one {
+  border-top-color: white;
+}
+#two {
+    border-top-color: white;
+    border-bottom-color: white; 
+}
+#three {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+#four {
+    border-color: white;
+}
