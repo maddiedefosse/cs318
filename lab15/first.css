@@ -14,11 +14,12 @@ main {
     background-image: url(https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false);
 }
 #right {
+    background-size: 90%;
     width: 350px;
     height: 200px;
     float: right;
     margin-left: 15px;
-    background-image: url(https://thumbs-prod.si-cdn.com/nA72TLLeitGZA4HUTR5_qhV4-Os=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg);
+    background-image: url("https://thumbs-prod.si-cdn.com/nA72TLLeitGZA4HUTR5_qhV4-Os=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg");
 }
 #left2 {
     background-size: 100%;
@@ -33,7 +34,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 380px;
-    height: 250px;    
+    height: 250px;
     float: right;
     margin-left: 15px;
     background-image: url(https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg);
@@ -44,10 +45,11 @@ main {
     font-size: 85%;
     background-color: rgb(97, 85, 64);
     border-radius: 10px;
-    width: 32%;
-    height: 28%;
+    max-width: 90px;
     margin-right: 30px;
     float: right;
+    opacity: 0.75;
+    padding: 5px;
 }
 @media (max-width: 500px) {
     div {
