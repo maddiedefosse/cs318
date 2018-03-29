@@ -23,7 +23,6 @@ p { color: #fdfdfd;
     border-style: solid;
     margin-bottom: 60px;
     padding-left: 10px;
-<<<<<<< HEAD
     
 }
 
@@ -40,25 +39,6 @@ nav {
     border-bottom-right-radius: 20px;
     box-shadow: 0 0 20px goldenrod;
     }
-=======
-}
-
-p {
-    color:white;
-}
-
-#links {
-    float: right;
-    color: black;
-    background-color: gold;
-    width: 130px;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0px 10px 10px 10px;
-    box-shadow: 0 0 20px gold;
-
-}
->>>>>>> 5ef1df978784e4492ba4e4e4bf882eea22abdf3d
 
 #fire {
     background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
@@ -66,8 +46,4 @@ p {
     height: 300px;
     float: bottom;
     position: absolute;
-<<<<<<< HEAD
     }
-=======
-}
->>>>>>> 5ef1df978784e4492ba4e4e4bf882eea22abdf3d
