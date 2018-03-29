@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+
+.name {
+    font-size:40px;
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    left: 0;
+
+    text-align: center;
+}
+
+.photo {
+    display: inline-block;    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 30px rgb(92, 92, 92);
+    margin: 30px;
+    position: relative;
+}
+
+#eric {
+    background-image:url("https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-that-70s-show-topher-grace.jpg");
+    background-size:100%;
+}
+
+
+#hyde {
+    background-image:url("https://usercontent2.hubstatic.com/13152575_f520.jpg");
+    background-size:100%;
+}
+
+#kitty {
+    background-image:url("https://vignette.wikia.nocookie.net/that70sshow/images/2/2e/2kitty.jpeg/revision/latest/scale-to-width-down/426?cb=20130421211205");
+    background-size:100%;
+}
+
+#red {
+    background-image:url("http://images2.fanpop.com/images/photos/6400000/red-that-70s-show-6429350-446-471.jpg");
+    background-size:100%;
+}
+
+.photo:hover {
+    box-shadow: 5px 5px 10px black;
+    top:5px;
+    left: 5px;    
+}

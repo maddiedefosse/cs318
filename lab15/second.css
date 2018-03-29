@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+
+
+body {
+    background-repeat: repeat;    
+    background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
+}
+h1 {color: rgb(241, 164, 21);
+    font-family: sans-serif;
+}
+
+
+h3{ color:rgb(20, 20, 20)
+
+}
+p { color: #fdfdfd;
+    border-radius: 15px;
+=======
 body {
     background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
 }
@@ -6,6 +24,7 @@ h1 {
     font-family: sans-serif;
 }
 .text {
+>>>>>>> 5ef1df978784e4492ba4e4e4bf882eea22abdf3d
     border-left-color: gold;
     border-right-width: 0px;
     border-top-width: 0px;
@@ -15,6 +34,24 @@ h1 {
     border-style: solid;
     margin-bottom: 60px;
     padding-left: 10px;
+<<<<<<< HEAD
+    
+}
+
+
+
+nav {
+    background-color: rgb(235, 218, 64);
+    float: right; 
+    width: 150px; 
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px goldenrod;
+    }
+=======
 }
 
 p {
@@ -32,6 +69,7 @@ p {
     box-shadow: 0 0 20px gold;
 
 }
+>>>>>>> 5ef1df978784e4492ba4e4e4bf882eea22abdf3d
 
 #fire {
     background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
@@ -39,4 +77,8 @@ p {
     height: 300px;
     float: bottom;
     position: absolute;
+<<<<<<< HEAD
+    }
+=======
 }
+>>>>>>> 5ef1df978784e4492ba4e4e4bf882eea22abdf3d
