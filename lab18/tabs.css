@@ -1,0 +1,43 @@
+*
+.tab {
+    display: inline-block;
+    background-color: lightsalmon;
+    width: 80px;
+    padding: 5px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+}
+.panel{
+    background-color: darksalmon;
+    position: absolute;
+    display: none;
+    width: 1000px;
+}
+
+.tab:focus {
+    background-color: darksalmon;
+}
+
+#parent{
+    position: relative;
+    display: inline-block;
+}
+
+#panel0 {
+    display: block;
+}
+
+#tab1:focus ~ #panel1 {
+    display: block;
+}
+
+#tab2:focus ~ #panel2 {
+    display: block;
+}
+
+#tab3:focus ~ #panel3 {
+    display: block;
+}
