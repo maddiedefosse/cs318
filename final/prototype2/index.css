@@ -1,0 +1,66 @@
+*
+
+body { background-color: rgb(126, 123, 126);
+    color: rgb(247, 247, 247);
+    width: 800px;
+ }
+
+
+
+h1 { background-color: rgb(170, 136, 164);
+    color: rgb(255, 255, 255);
+    padding: 60px;
+    font-size: 80px;
+    font-family: 'Dancing Script';
+}
+
+p { 
+    color: rgb(230, 225, 225);
+    font-size: 20px;
+    }
+
+  
+img {
+    width: 350px;}
+
+nav{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 2200px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.gallery img{
+    margin-bottom: 1%;
+    max-width: 370px;
+}
+
+footer {
+    height: 50px;
+    width: 56px;
+    
+}
+
+@media (min-width: 200px) {
+    body {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+        }
+  
